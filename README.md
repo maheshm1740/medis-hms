@@ -550,6 +550,19 @@ jwt:
 
 ---
 
+## 🤝 Contributing
+
+Contributions are welcome! 🚀  
+
+Fork the repo, create a feature branch, and open a Pull Request.
+
+### Ideas
+- Improve UI/UX  
+- Add new modules  
+- Optimize backend performance  
+- Integrate AI features (e.g., recommendations, chatbot)
+
 ## 📄 License
 
-This project is for educational and demonstration purposes.
+This project is for learning and demonstration purposes.
+
