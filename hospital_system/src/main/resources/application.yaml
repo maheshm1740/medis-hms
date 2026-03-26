@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: hospital_system
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hospital_db
+    username: postgres
+    password: 1740
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  cache:
+    type: redis
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      connect-timeout: 2s
+      timeout: 2s
+
+springdoc:
+  swagger-ui:
+    url: /v3/api-docs
+  api-docs:
+    path: /v3/api-docs
+
+jwt:
+  secret: your-256-bit-secret-key-replace-this-in-production-use-env-var
+  expiration: 86400000      # 24 hours in ms
+  refresh-expiration: 604800000  # 7 days in ms
